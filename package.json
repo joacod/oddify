@@ -1,6 +1,6 @@
 {
   "name": "oddify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "oddify library",
   "source": "src/index.astro",
   "types": "src/index.d.ts",
