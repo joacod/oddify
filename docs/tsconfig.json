@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@oddify": ["../src/index.astro"]
+      "@oddify": ["../lib.astro"]
     }
   }
 }
