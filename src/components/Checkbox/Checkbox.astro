@@ -1,0 +1,15 @@
+---
+import "./Checkbox.css";
+
+interface Props {
+  label: string;
+  checked?: boolean;
+}
+
+const { label, checked = true } = Astro.props;
+---
+
+<label class="checkbox-label">
+  <input type="checkbox" class="checkbox-input checkbox" checked={checked} />
+  {label}
+</label>

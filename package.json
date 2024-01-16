@@ -1,7 +1,7 @@
 {
   "name": "oddify",
   "version": "0.2.4",
-  "description": "oddify library",
+  "description": "An odd looking UI component library for Astro",
   "source": "lib.astro",
   "scripts": {
     "dev": "astro dev",
