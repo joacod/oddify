@@ -1,6 +1,6 @@
 {
   "name": "oddify",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "oddify library",
   "source": "lib.astro",
   "scripts": {
