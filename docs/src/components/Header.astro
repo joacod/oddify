@@ -1,5 +1,6 @@
 ---
 import { Button } from "@oddify";
+import HomeIcon from "../icons/Home.astro";
 import GithubIcon from "../icons/Github.astro";
 import NpmIcon from "../icons/Npm.astro";
 ---
@@ -8,7 +9,9 @@ import NpmIcon from "../icons/Npm.astro";
   class="fixed flex justify-between top-0 z-50 w-full bg-violet-900 opacity-80 text-white text-center shadow-lg p-3"
 >
   <div class="flex justify-start items-center space-x-2">
-    <p>Oddify</p>
+    <Button href="/">
+      <HomeIcon />
+    </Button>
   </div>
   <div class="flex justify-end items-center">
     <Button href="https://www.npmjs.com/package/oddify" target="_blank">
