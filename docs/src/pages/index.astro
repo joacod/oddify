@@ -1,19 +1,23 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Gallery from "../components/Gallery.astro";
+import Code from "../components/Code.astro";
 ---
 
-<Layout title="Oddify Documentation">
-  <header>
-    <div class="flex flex-wrap w-full mb-14 flex-col items-center text-center">
-      <div class="flex items-center justify-center mb-2">
-        <img src="./oddify.png" width="50" height="50" class="" alt="Oddify" />
-        <h1 class="text-3xl font-medium title-font text-white">Oddify</h1>
-      </div>
-      <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80 text-xl">
-        An odd looking UI library for Astro 🚀
-      </p>
+<Layout title="Oddify - Odd documentation">
+  <header
+    class="flex flex-wrap w-full mt-16 mb-10 flex-col items-center text-center"
+  >
+    <div class="flex items-center justify-center mb-2">
+      <img src="./oddify.png" width="50" height="50" class="" alt="Oddify" />
+      <h1 class="text-3xl font-medium title-font text-white">Oddify</h1>
     </div>
+    <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80 text-xl">
+      An odd looking UI component library for Astro 🚀
+    </p>
+    <Code slot="code" title="install">
+      <code class="text-xs mt-2">{`npm i oddify`}</code>
+    </Code>
   </header>
   <main>
     <Gallery />
