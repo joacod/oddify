@@ -1,0 +1,6 @@
+.odd-container {
+  border: 0.15rem solid #464646;
+  box-shadow: 0.15rem 0.15rem 0rem 0.15rem #646464;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}

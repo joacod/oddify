@@ -1,0 +1,11 @@
+---
+import "./Input.css";
+
+interface Props {
+  placeholder: string;
+}
+
+const { placeholder } = Astro.props;
+---
+
+<input type="text" placeholder={placeholder} class="odd-input" />
