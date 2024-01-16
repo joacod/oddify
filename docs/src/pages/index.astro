@@ -1,13 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Button } from "@oddify";
+import Gallery from "../components/Gallery.astro";
 ---
 
 <Layout title="Oddify Documentation">
   <header>
-    <h1>Oddify Documentation</h1>
+    <div class="flex flex-wrap w-full mb-14 flex-col items-center text-center">
+      <div class="flex items-center justify-center mb-2">
+        <img src="./oddify.png" width="50" height="50" class="" alt="Oddify" />
+        <h1 class="text-3xl font-medium title-font text-white">Oddify</h1>
+      </div>
+      <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80 text-xl">
+        An odd looking UI library for Astro 🚀
+      </p>
+    </div>
   </header>
   <main>
-    <Button>Hello Astro!</Button>
+    <Gallery />
   </main>
 </Layout>
