@@ -1,7 +1,14 @@
 ---
-import "./Button.css"
+import "./Button.css";
+
+interface Props {
+  href: string;
+  target?: "_blank" | "_self" | "_parent" | "_top";
+}
+
+const { href, target } = Astro.props;
 ---
 
-<button>
+<a class="button" href={href} target={target}>
   <slot />
-</button>
+</a>
