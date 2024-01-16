@@ -1,0 +1,32 @@
+---
+import Card from "./Card.astro";
+import Code from "./Code.astro";
+import { Button, Loading } from "@oddify";
+---
+
+<section class="flex flex-wrap -m-4">
+  <Card
+    title="Button"
+    desc="Displays a button or a component that looks like a button."
+  >
+    <Button>Click Me</Button>
+    <Code slot="code">
+      <code class="text-xs">{`---`}</code>
+      <code class="text-xs">{`import {Button} from "@oddify";`}</code>
+      <code class="text-xs">{`---`}</code>
+      <code class="text-xs mt-2">{`<Button>Click Me</Button>`}</code>
+    </Code>
+  </Card>
+  <Card
+    title="Loading"
+    desc="Displays a button or a component that looks like a button."
+  >
+    <Loading />
+    <Code slot="code">
+      <code class="text-xs">{`---`}</code>
+      <code class="text-xs">{`import {Loading} from "@oddify";`}</code>
+      <code class="text-xs">{`---`}</code>
+      <code class="text-xs mt-2">{`<Loading />`}</code>
+    </Code>
+  </Card>
+</section>
