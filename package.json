@@ -1,13 +1,20 @@
 {
   "name": "oddify",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "oddify library",
   "source": "lib.astro",
   "scripts": {
     "dev": "astro dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "astro",
+    "components",
+    "ui-library",
+    "design",
+    "css",
+    "ui"
+  ],
   "author": {
     "name": "Joaquin Diaz",
     "url": "https://github.com/joacod"
@@ -16,6 +23,7 @@
     "type": "git",
     "url": "https://github.com/joacod/oddify"
   },
+  "homepage": "https://oddify-nine.vercel.app/",
   "license": "MIT",
   "devDependencies": {
     "astro": "4.1.2"
