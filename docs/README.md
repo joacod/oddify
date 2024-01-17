@@ -1,3 +1,3 @@
 # Oddify Documentation
 
-In progress...
+Documentation available at [https://oddify-nine.vercel.app/](https://oddify-nine.vercel.app/)

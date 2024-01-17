@@ -10,5 +10,7 @@ const { href, target } = Astro.props;
 ---
 
 <a class="button" href={href} target={target}>
+  <slot name="before" />
   <slot />
+  <slot name="after" />
 </a>
