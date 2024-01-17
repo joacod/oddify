@@ -16,6 +16,9 @@ a.button {
   -webkit-user-select: none;
   touch-action: manipulation;
   margin: 2px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a.button:active:not(:disabled) {
