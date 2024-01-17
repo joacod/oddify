@@ -16,6 +16,10 @@
 
 An odd looking UI component library for [Astro](https://astro.build/) 🚀
 
+## 📚 Documentation
+
+Check our [documentation](https://oddify-nine.vercel.app/) to see all available components.
+
 ## 💻 Development
 
 **Install library:**
