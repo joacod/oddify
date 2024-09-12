@@ -1,6 +1,6 @@
 {
   "name": "oddify",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "An odd looking UI component library for Astro",
   "source": "lib.astro",
   "scripts": {
@@ -23,7 +23,6 @@
     "type": "git",
     "url": "https://github.com/joacod/oddify"
   },
-  "homepage": "https://oddify-nine.vercel.app/",
   "license": "MIT",
   "devDependencies": {
     "astro": "4.1.2"
