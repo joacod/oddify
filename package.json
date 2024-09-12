@@ -23,7 +23,6 @@
     "type": "git",
     "url": "https://github.com/joacod/oddify"
   },
-  "homepage": "https://oddify-nine.vercel.app/",
   "license": "MIT",
   "devDependencies": {
     "astro": "4.1.2"
