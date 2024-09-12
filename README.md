@@ -2,7 +2,6 @@
 
 # Oddify
 
-[![Vercel](https://vercelbadge.vercel.app/api/joacod/oddify)](https://oddify-nine.vercel.app/)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/joacod/oddify/blob/main/LICENSE)
 
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/oddify)
@@ -10,15 +9,23 @@
 
 </div>
 
-## 🛠️ Library in progress...
-
 ## 👋 Introduction
 
 An odd looking UI component library for [Astro](https://astro.build/) 🚀
 
 ## 📚 Documentation
 
-Check our [documentation](https://oddify-nine.vercel.app/) to see all available components.
+<p align="center">
+  <img width="80%" src="https://github.com/joacod/oddify/blob/main/docs/public/oddify.webp" alt="Oddify Documentation">
+</p>
+
+To run the documentation and see all available components, you can run the following commands.
+
+```bash
+cd docs
+pnpm i
+pnpm run dev
+```
 
 ## 💻 Development
 
